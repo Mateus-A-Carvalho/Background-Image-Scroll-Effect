@@ -5,6 +5,14 @@
   outline: none;
 }
 
+/* Utility classes */
+.main-content {
+  max-width: 120rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+/* Utility classes */
+
 html {
   height: 100vh;
   font-size: 62.5%;
@@ -13,9 +21,21 @@ html {
 body {
   height: 100%;
   font-size: 1.8rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-img {
-  background-image: url("../img/bg01.jpg");
+section.bgc-scroll {
+  background: url("../img/bg01.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+section.lorem {
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  margin: 2rem 0
 }
