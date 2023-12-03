@@ -12,4 +12,10 @@ html {
 
 body {
   height: 100%;
+  font-size: 1.8rem;
+  overflow: hidden;
+}
+
+img {
+  background-image: url("../img/bg01.jpg");
 }
