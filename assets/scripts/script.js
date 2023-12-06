@@ -1,5 +1,8 @@
 const bgSectionEl = document.querySelector('#bgc-scroll')
 
-document.addEventListener("scroll", () => {
-  console.log(window.scrollY)
+window.addEventListener("scroll", () => {
+  bgSectionEl.style.opacity = 1 - window.scrollY / 800;
+  bgSectionEl.style.backgroundSize = 150 - window.scrollY / 12 + "%";
+
 })
+
